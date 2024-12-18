@@ -634,15 +634,19 @@
   }
   
   .cv {
-    width: 200px;
-    height: 70px;
+    width: 170px;
+    height: 50px;
     border: 2px solid black;
     margin: 40px auto;
     cursor: pointer;
+    border-radius:10px;
+    
   }
-  .cv h1 {
+  .cv h1 a{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    color:#000;
+    text-decoration:none;
   }
   
   .cv:hover {
